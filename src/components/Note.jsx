@@ -24,7 +24,7 @@ const Note = ({data, deleteNote}) => {
                         {data.description}
                     </p>
                     <button onClick={()=> deleteNote(data.id)} className="w-full text-center mt-3 text-red-500 cursor-pointer hover:text-red-700">
-                        Delete ❌
+                        Delete 🗑️
                     </button>
                 </div>
 
